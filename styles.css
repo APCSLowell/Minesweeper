@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(200,200,200);
+    color: rgb(0,0,0);
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+#content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+header {
+	
+}
+
+footer {
+	font-style: italic;
+	font-size: 90%;
+}
