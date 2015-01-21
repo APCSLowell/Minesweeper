@@ -1,7 +1,7 @@
 Minesweeper
 ==================
 
-In this assignment you will be recreating the Microsoft Minesweeper game. If you are not familiar with minesweeper you should play the game until you are. You can find one version at [http://minesweeperonline.com/](http://minesweeperonline.com/)
+In this assignment you will be recreating the Microsoft Minesweeper game. If you are not familiar with minesweeper you should play the game until you are. You can find one version at [http://minesweeperonline.com/](http://minesweeperonline.com/). You can also try this [finished version on the assignment](http://simart.github.io/MinesweeperFinished/)
 
 Install the Guido Button Library
 --------------------------------
