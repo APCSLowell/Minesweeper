@@ -14,7 +14,7 @@ Program Requirements
 3. Make sure all class member variables and methods are labeled appropriately as either `public`, `protected` or `private`
 4. If you click on a button that contains a bomb, the game ends and all the bombs are displayed
 5. If you click on a button that does not contain a bomb, a number appears at that location indicating the number of neighbors that DO contain bombs. Recall that each position has at most 8 neighbors. Note that the buttons on the boundary have fewer than 8 neighbors. For example, a corner has only three neighbors.
-6. if the user clicks on a button and no number appears, then there are no bombs surrounding that button. Your program should then recursively keep marking those surrounding buttons that are not surrounded by bombs.
+6. If the user clicks on a button and no number appears, then there are no bombs surrounding that button. Your program should then recursively keep marking those surrounding buttons that are not surrounded by bombs.
 7. The game should end when all the buttons that do not contain bombs have been marked (assuming that you have not been blown up by then!)
 8. Your game should use `Math.random()` to randomly place the mines.
 
