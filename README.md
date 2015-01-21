@@ -1,7 +1,7 @@
 Minesweeper
 ==================
 
-In this assignment you will be recreating the Microsoft Minesweeper game. If you are not familiar with minesweeper you should play the game until you are. You can find it from the Start Menu: *Start |Programs | Accessories | Games | Minesweeper*
+In this assignment you will be recreating the Microsoft Minesweeper game. If you are not familiar with minesweeper you should play the game until you are. You can find one version at [http://minesweeperonline.com/](http://minesweeperonline.com/)
 
 Install the Guido Button Library
 --------------------------------
@@ -22,22 +22,26 @@ Program Requirements
 Suggested steps to completing this assignment:
 ----------------------------------------------
 1. Fork and clone down this repository
-2. We'll use the ArrayList bombs to store all the Buttons that are hiding bombs. Add code at the bottom of buttonSetup so that there is a 10% chance that buttons[r][c] will be added to
-3. My program had the following additional methods, which I added in the following order:  
-	*`public void setBombs()` randomly places the bombs
-	*`public boolean isValid(int row, int col)` returns `true` if (`row`,`col`) is a valid location on the grid
-	*`public int countBombs(int row, int col)` counts the bombs in the 8 neighbors--(remember to check to see if the neighboring button is valid before checking to see if it's a mine)
-	*`public void changeBackground(int row, int col)` Changes the background of a button that has been clicked normally and uses `setLabel` to label the button with the number of neighboring mines
-	*`public boolean isWon()` determines if the player has won the game
-	*`public void displayWinMessage()` uses `setLabel` to change the labels of the buttons to display a winning message
-	*`public void displayLosingMessage()` displays the positions of all the bombs and displays a losing message
-4. The changeBackground method is tricky: It should first check to see if the Button has already been clicked. If the button's background color is not (0,54,82) then return because the button has already been clicked. You can check the background color with code like: 
-`buttons[row-1][col].getColor().getBackground() == color(0,54,82)`
-If the button was a bomb, change it's background color to red with code like: 
-`buttons[row][col].setColorBackground(color(255, 0, 0));` You can check if the ArrayList bombs contains the button that was clicked with code like: 
-`if(bombs.contains(buttons[row][col]))`  
+2. On line 4, create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20  
+2. Go to line 18, use the constants to initialize the 2d array `buttons` to have 20 rows and 20 columns
+2. Use nested loops to reate a `new MSButton` for each row column pair
+2. Uncomment lines 55 and 56, You should now see a grid of buttons. If you click on the button it should turn white.
+2. Now, got to line 7, and initialize `bombs` to be a new empty ArrayList of `MSButton`  
+3. Go to line 25 and write the `setBombs()` function. It should generate a random row and column number. Use the `contains()` function to check to see if  `buttons[row][col]` is already in `bombs`. If it isn't then `add` it
+3. Uncomment lines 97 and 98 so that cells with a mine turn red when clicked. Test out your program to make sure it has the number of mines you expect.
+3. Now go to the `MSButton` class and finish these three member methods:  
+	* ``public boolean isValid(int row, int col)` returns `true` if (`row`,`col`) is a valid location on the grid and `false` otherwise
+	* `public int countBombs(int row, int col)` counts the bombs in the 8 neighbors--(remember to check to see if the neighboring button is valid before checking to see if it's a mine)
+	* `public void mousePressed()` which:
+		* sets `click` to true
+		* if a key is pressed, toggles `marked` to either either `true` or `false`
+		* else if `this` button is contained in the `bombs` display the losing message
+		* else if `countBombs` returns a number of neighboring mines greater than zero, set the label to that number
+		* else recursively call `mousePressed` with the valid, unclicked, neighboring buttons 
+	* Next, finish `public boolean isWon()` which determines if the player has won the game
+	* Then finish `public void displayWinMessage()` which uses `setLabel` to change the labels of the buttons to display a winning message
+	* Finally finish `public void displayLosingMessage()` to display the positions of all the bombs as well as a losing message
 
-Otherwise change to the backgound of the button to something other than red, and then if has no neighboring bombs, it should recursively call itself with the valid neighboring positions that are "unclicked".
 
 
 ***
