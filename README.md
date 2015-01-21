@@ -35,7 +35,7 @@ Suggested steps to completing this assignment:
 	* `public void mousePressed()` which:
 		* sets `click` to true
 		* if a key is pressed, toggles `marked` to either either `true` or `false`
-		* else if `this` button is contained in the `bombs` display the losing message
+		* else if `bombs` contains `this` button display the losing message
 		* else if `countBombs` returns a number of neighboring mines greater than zero, set the label to that number
 		* else recursively call `mousePressed` with the valid, unclicked, neighboring buttons 
 	* Next, finish `public boolean isWon()` which determines if the player has won the game
