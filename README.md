@@ -27,7 +27,7 @@ Suggested steps to completing this assignment:
 2. Use nested loops to reate a `new MSButton` for each row column pair
 2. Uncomment lines 55 and 56, You should now see a grid of buttons. If you click on the button it should turn white.
 2. Now, got to line 7, and initialize `bombs` to be a new empty ArrayList of type `MSButton`  
-3. Go to line 25 and write the `setBombs()` function. It should generate a random row and column number. Use the `contains()` function to check to see if  `buttons[row][col]` is already in `bombs`. If it isn't then `add` it
+3. Go to line 25 and write the `setBombs()` function. It should generate a random `row` and `col`umn number. Use the `contains()` function to check to see if  `buttons[row][col]` is already in `bombs`. If it isn't then `add` it
 3. Uncomment lines 97 and 98 so that cells with a mine turn red when clicked. Test out your program to make sure it has the number of mines you expect.
 3. Now go to the `MSButton` class and finish these three member methods:  
 	* ``public boolean isValid(int row, int col)` returns `true` if (`row`,`col`) is a valid location on the grid and `false` otherwise
