@@ -30,7 +30,7 @@ Suggested steps to completing this assignment:
 3. Go to line 25 and write the `setBombs()` function. It should generate a random `row` and `col`umn number. Use the `contains()` function to check to see if  `buttons[row][col]` is already in `bombs`. If it isn't then `add` it
 3. Uncomment lines 97 and 98 so that cells with a mine turn red when clicked. Test out your program to make sure it has the number of mines you expect.
 3. Now go to the `MSButton` class and finish these three member methods:  
-	* ``public boolean isValid(int row, int col)` returns `true` if (`row`,`col`) is a valid location on the grid and `false` otherwise
+	* `public boolean isValid(int row, int col)` returns `true` if (`row`,`col`) is a valid location on the grid and `false` otherwise
 	* `public int countBombs(int row, int col)` counts the bombs in the 8 neighbors--(remember to check to see if the neighboring button is valid before checking to see if it's a mine)
 	* `public void mousePressed()` which:
 		* sets `click` to true
