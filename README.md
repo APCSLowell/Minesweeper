@@ -54,4 +54,4 @@ If you want an alternative to Minesweeper, you could write your own version of t
 ***
 Samples of Student Work
 -----------------------
-
+[Zachary](http://zachooz.github.io/Minesweeper/)  
