@@ -49,9 +49,13 @@ Alternative Assignment: The Game of Life
 ----------------------------------------
 If you want an alternative to Minesweeper, you could write your own version of the The Game of Life. The Game of Life isn't what you think, it's a program that simulates how bacteria might grow. It's another program that is well suited to using a two dimensional array of buttons. You can find examples and descriptions at the following websites:
 [http://www.bitstorm.org/gameoflife/](http://www.bitstorm.org/gameoflife/)   
-[http://www.math.com/students/wonders/life/life.html](http://www.math.com/students/wonders/life/life.html)
+[http://www.math.com/students/wonders/life/life.html](http://www.math.com/students/wonders/life/life.html)  
+
+Game of Life sample work
+------------------------
+[Ethan](http://emdarcher.github.io/processing_GameOfLife_simulation/)   
 
 ***
-Samples of Student Work
+Minesweeper sample work
 -----------------------
 [Zachary](http://zachooz.github.io/Minesweeper/)  
