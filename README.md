@@ -59,3 +59,4 @@ Game of Life sample work
 Minesweeper sample work
 -----------------------
 [Zachary](http://zachooz.github.io/Minesweeper/)  
+[Jeffrey](http://cygeworks.github.io/Minesweeper/)   
