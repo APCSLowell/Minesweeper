@@ -61,3 +61,4 @@ Minesweeper sample work
 [Zachary](http://zachooz.github.io/Minesweeper/)  
 [Jeffrey](http://cygeworks.github.io/Minesweeper/)   
 [Alvan](http://bubbathetroll.github.io/Minesweeper/)   
+[Erika](http://bekutaa.github.io/Minesweeper/)   
