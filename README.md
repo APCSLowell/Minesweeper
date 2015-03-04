@@ -63,3 +63,4 @@ Minesweeper sample work
 [Alvan](http://bubbathetroll.github.io/Minesweeper/)   
 [Erika](http://bekutaa.github.io/Minesweeper/)   
 [Christine](http://christinechao.github.io/Minesweeper/)   
+[Thomas](http://tomikam.github.io/Minesweeper/)   
