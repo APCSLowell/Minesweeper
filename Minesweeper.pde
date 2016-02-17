@@ -13,9 +13,10 @@ void setup ()
     // make the manager
     Interactive.make( this );
     
+    //your code to declare and initialize buttons goes here
     
-
-    //declare and initialize buttons
+    
+    
     setBombs();
 }
 public void setBombs()
