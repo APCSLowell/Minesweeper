@@ -58,6 +58,7 @@ Game of Life sample work
 ***
 Minesweeper sample work
 -----------------------
+[Lin](http://lin00.github.io/Minesweeper/)  
 [Zachary](http://zachooz.github.io/Minesweeper/)  
 [Yufan](http://yuxu1.github.io/Minesweeper/)   
 [Alvan](http://bubbathetroll.github.io/Minesweeper/)   
