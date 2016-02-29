@@ -60,6 +60,7 @@ Minesweeper sample work
 -----------------------
 [Theo](http://awesomestickman.github.io/Minesweeper/)  
 [Lin](http://lin00.github.io/Minesweeper/)  
+[Jimmy](http://furiouspenguins.github.io/Minesweeper/)  
 [Zachary](http://zachooz.github.io/Minesweeper/)  
 [Yufan](http://yuxu1.github.io/Minesweeper/)   
 [Alvan](http://bubbathetroll.github.io/Minesweeper/)   
