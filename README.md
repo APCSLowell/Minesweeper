@@ -58,6 +58,7 @@ Game of Life sample work
 ***
 Minesweeper sample work
 -----------------------
+[Brian](http://brianlam37.github.io/Minesweeper/)  
 [Ka Ki](http://alzhu1.github.io/Minesweeper/)  
 [Alex](http://alzhu1.github.io/Minesweeper/)  
 [Elliott](http://elliottdebruin.github.io/Minesweeper/)  
