@@ -58,6 +58,7 @@ Game of Life sample work
 ***
 Minesweeper sample work
 -----------------------
+[Matthew](http://yeahmatts.github.io/Minesweeper/)  
 [Rebecca](http://rebeckur.github.io/Minesweeper/)  
 [Winnie](http://winnie3269.github.io/Minesweeper/)  
 [Evan](http://evhuang.github.io/Minesweeper/)  
