@@ -58,6 +58,9 @@ Game of Life sample work
 ***
 Minesweeper sample work
 -----------------------
+[Jacky](http://jackyrobot.github.io/Minesweeper/)  
+[Noah](http://noahzpepper.github.io/Minesweeper/)  
+[Alex](http://alexlo1.github.io/Minesweeper/)  
 [Matthew](http://yeahmatts.github.io/Minesweeper/)  
 [Rebecca](http://rebeckur.github.io/Minesweeper/)  
 [Winnie](http://winnie3269.github.io/Minesweeper/)  
