@@ -34,7 +34,7 @@ Suggested steps to completing this assignment:
 	* `public int countBombs(int row, int col)` counts the bombs in the 8 neighbors--(remember to check to see if the neighboring button is valid before checking to see if it's a mine)
 	* `public void mousePressed()` which:
 		* sets `click` to true
-		* if `keyPressed` is `true`, toggles `marked` to either either `true` or `false`
+		* if `keyPressed` is `true`, toggles `marked` to either either `true` or `false`. If `marked` is `false` set `click` to `false`
 		* else if `bombs` contains `this` button display the losing message
 		* else if `countBombs` returns a number of neighboring mines greater than zero, set the label to that number
 		* else recursively call `mousePressed` with the valid, unclicked, neighboring buttons 
