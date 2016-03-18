@@ -58,6 +58,7 @@ Game of Life sample work
 ***
 Minesweeper sample work
 -----------------------
+[Xiao Qin](http://qingyuu.github.io/Minesweeper/)  
 [Charles](http://chadvincula.github.io/Minesweeper/)  
 [Jacky](http://jackyrobot.github.io/Minesweeper/)  
 [Noah](http://noahzpepper.github.io/Minesweeper/)  
