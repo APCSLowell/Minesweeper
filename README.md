@@ -59,6 +59,9 @@ Game of Life sample work
 Minesweeper sample work
 -----------------------
 [Hannah](https://hadecastro.github.io/Minesweeper/)   
+[Sophie](https://sohuang.github.io/Minesweeper/)   
+[Emma](https://emmackenzie.github.io/Minesweeper/)   
+[Andrew](https://ansue1234.github.io/Minesweeper/)   
 [Thien](http://thtran1.github.io/Minesweeper/)  
 [Melody](http://itsmelodious.github.io/Minesweeper/)  
 [Jeremy](http://gitrektapcs.github.io/Minesweeper/)  
