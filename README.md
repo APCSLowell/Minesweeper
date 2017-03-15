@@ -58,6 +58,7 @@ Game of Life sample work
 ***
 Minesweeper sample work
 -----------------------
+[Brandon](https://zawszefl.github.io/Minesweeper/)   
 [Hannah](https://hadecastro.github.io/Minesweeper/)   
 [Sophie](https://sohuang.github.io/Minesweeper/)   
 [Emma](https://emmackenzie.github.io/Minesweeper/)   
