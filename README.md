@@ -62,6 +62,7 @@ Minesweeper sample work
 [Sophie](https://sohuang.github.io/Minesweeper/)   
 [Emma](https://emmackenzie.github.io/Minesweeper/)   
 [Nghi](https://nagirokudo.github.io/Minesweeper/)   
+[Mi-Kaela](https://mikamarciales.github.io/Minesweeper/)   
 [Andrew](https://ansue1234.github.io/Minesweeper/) 
 [Michelle](https://miphung.github.io/Minesweeper/)   
 [Thien](http://thtran1.github.io/Minesweeper/)  
