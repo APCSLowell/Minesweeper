@@ -59,6 +59,7 @@ Game of Life sample work
 Minesweeper sample work
 -----------------------
 [Zhenwen](https://1337elitehacker.github.io/Minesweeper/)   
+[Nghi](https://nagirokudo.github.io/Minesweeper/)   
 [Kenny](https://kennyyu168.github.io/Minesweeper/)   
 [Juan](https://juan-hernandez7.github.io/Minesweeper/)   
 [Darya](https://darya-ver.github.io/FractalTree/)   
