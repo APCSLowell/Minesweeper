@@ -58,6 +58,7 @@ Game of Life sample work
 ***
 Minesweeper sample work
 -----------------------
+[Erica](https://ericamalia.github.io/Minesweeper/)   
 [Zhenwen](https://1337elitehacker.github.io/Minesweeper/)   
 [Nghi](https://nagirokudo.github.io/Minesweeper/)   
 [Kenny](https://kennyyu168.github.io/Minesweeper/)   
