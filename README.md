@@ -64,7 +64,7 @@ Minesweeper sample work
 [Nghi](https://nagirokudo.github.io/Minesweeper/)   
 [Kenny](https://kennyyu168.github.io/Minesweeper/)   
 [Juan](https://juan-hernandez7.github.io/Minesweeper/)   
-[Darya](https://darya-ver.github.io/FractalTree/)   
+[Darya](https://darya-ver.github.io/Minesweeper/)   
 [Brandon](https://zawszefl.github.io/Minesweeper/)   
 [Kyle](https://yachtmasterkyle.github.io/Minesweeper/)   
 [Hannah](https://hadecastro.github.io/Minesweeper/)   
