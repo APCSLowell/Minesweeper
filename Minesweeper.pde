@@ -13,7 +13,7 @@ void setup ()
     // make the manager
     Interactive.make( this );
     
-    //your code to declare and initialize buttons goes here
+    //your code to initialize buttons goes here
     
     
     
