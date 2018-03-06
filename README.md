@@ -36,7 +36,7 @@ Suggested steps to completing this assignment:
 		* sets `click` to true
 		* if `keyPressed` is `true`, toggles `marked` to either either `true` or `false`. If `marked` is `false` set `click` to `false`
 		* else if `bombs` contains `this` button display the losing message
-		* else if `countBombs` returns a number of neighboring mines greater than zero, set the label to that number
+		* else if `countBombs` returns a number of neighboring mines greater than zero, set the label to that number. (to convert the `int` that `countBombs()` returns to a `String` add an empty `String`, `""+countBombs()`)
 		* else recursively call `mousePressed` with the valid, unclicked, neighboring buttons in all 8 directions 
 4. Next, finish `public boolean isWon()` which determines if the player has won the game
 5. Then finish `public void displayWinMessage()` which uses `setLabel` to change the labels of the buttons to display a winning message
