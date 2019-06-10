@@ -1,9 +1,7 @@
-
-
 import de.bezier.guido.*;
-//Declare and initialize NUM_ROWS and NUM_COLS = 20
+//Declare and initialize constants NUM_ROWS and NUM_COLS = 20
 private MSButton[][] buttons; //2d array of minesweeper buttons
-private ArrayList <MSButton> bombs; //ArrayList of just the minesweeper buttons that are mined
+private ArrayList <MSButton> mines; //ArrayList of just the minesweeper buttons that are mined
 
 void setup ()
 {
@@ -17,9 +15,9 @@ void setup ()
     
     
     
-    setBombs();
+    setMines();
 }
-public void setBombs()
+public void setMines()
 {
     //your code
 }
@@ -27,7 +25,7 @@ public void setBombs()
 public void draw ()
 {
     background( 0 );
-    if(isWon())
+    if(isWon() == true)
         displayWinningMessage();
 }
 public boolean isWon()
@@ -43,47 +41,48 @@ public void displayWinningMessage()
 {
     //your code here
 }
-
+public boolean isValid(int r, int c)
+{
+    //your code here
+    return false;
+}
+public int countMines(int row, int col)
+{
+    int numMines = 0;
+    //your code here
+    return numMines;
+}
 public class MSButton
 {
-    private int r, c;
+    private int myRow, myCol;
     private float x,y, width, height;
-    private boolean clicked, marked;
-    private String label;
+    private boolean clicked, flagged;
+    private String myLabel;
     
-    public MSButton ( int rr, int cc )
+    public MSButton ( int row, int col )
     {
         // width = 400/NUM_COLS;
         // height = 400/NUM_ROWS;
-        r = rr;
-        c = cc; 
-        x = c*width;
-        y = r*height;
-        label = "";
-        marked = clicked = false;
+        myRow = row;
+        myCol = col; 
+        x = myCol*width;
+        y = myRow*height;
+        myLabel = "";
+        flagged = clicked = false;
         Interactive.add( this ); // register it with the manager
     }
-    public boolean isMarked()
-    {
-        return marked;
-    }
-    public boolean isClicked()
-    {
-        return clicked;
-    }
+
     // called by manager
-    
     public void mousePressed () 
     {
         clicked = true;
         //your code here
     }
-
     public void draw () 
     {    
-        if (marked)
+        if (flagged)
             fill(0);
-        // else if( clicked && bombs.contains(this) ) 
+        // else if( clicked && mines.contains(this) ) 
         //     fill(255,0,0);
         else if(clicked)
             fill( 200 );
@@ -92,24 +91,18 @@ public class MSButton
 
         rect(x, y, width, height);
         fill(0);
-        text(label,x+width/2,y+height/2);
+        text(myLabel,x+width/2,y+height/2);
     }
     public void setLabel(String newLabel)
     {
-        label = newLabel;
+        myLabel = newLabel;
     }
-    public boolean isValid(int r, int c)
+    public void setLabel(int newLabel)
     {
-        //your code here
-        return false;
+        myLabel = ""+ newLabel;
     }
-    public int countBombs(int row, int col)
+    public boolean isFlagged()
     {
-        int numBombs = 0;
-        //your code here
-        return numBombs;
+        return flagged;
     }
 }
-
-
-
