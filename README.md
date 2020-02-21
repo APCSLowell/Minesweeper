@@ -11,10 +11,10 @@ Program Requirements
 --------------------
 1. Your minesweeper game will be a two dimensional array of buttons.
 3. Make sure all class member variables and methods are labeled appropriately as either `public` or `private`
-4. If you click on a button that contains a mine, the game ends and all the mines are displayed
-5. If you click on a button that does not contain a mine, a number appears at that location indicating the number of neighbors that DO contain mines. Recall that each position has at most 8 neighbors. Note that the buttons on the edges have fewer than 8 neighbors. For example, a corner button has only three neighbors.
-6. If the user clicks on a button and no number appears, then there are no mines neighboring that button. Your program should then recursively keep pressing those surrounding buttons that are not next to a mine.
-7. The game should end when all the buttons that contain mines have been correctly marked (assuming that you have not been blown up by then!)
+4. If the user clicks on a button that contains a mine, the game ends and all the mines are displayed
+5. If the user clicks on a button that does not contain a mine, a number appears at that location indicating the number of neighbors that DO contain mines. Recall that each position has at most 8 neighbors. Note that the buttons on the edges have fewer than 8 neighbors. For example, a corner button has only three neighbors.
+6. If the user clicks on a button and no number appears, then there are no mines neighboring that button. Your program should then recursively keep pressing those neighboring buttons that are not next to a mine.
+7. The game should end when all the buttons that contain mines have been correctly marked and all other buttons have been clicked (assuming that you have not been blown up by then!)
 8. Your game should use `Math.random()` to randomly place the mines.
 
 
