@@ -20,7 +20,7 @@ Program Requirements
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
-1. Fork and clone down this repository. As you work through the following steps, make sure that your program runs correctly before going to the next step.
+1. Fork and clone down this repository. (If you are working online you can fork [this repl.it](https://repl.it/@MrSimonLowell/MinesweeperBase). As you work through the following steps, make sure that your program runs correctly before going to the next step.
 2. On line 2, delete the comment and create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20  
 3. Go to line 16, use the constants to initialize the 2d array `buttons` to have 20 rows and 20 columns
 4. Use nested loops to create a `new MSButton` for each row column pair
