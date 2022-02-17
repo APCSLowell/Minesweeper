@@ -20,27 +20,28 @@ Program Requirements
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
-1. Fork this repository. As you work through the following steps, make sure that your program runs correctly before going to the next step.
-2. On line 2, delete the comment and create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20  
-3. Go to line 16, use the constants to initialize the 2d array `buttons` to have 20 rows and 20 columns
-4. Use nested loops to create a `new MSButton` for each row column pair
-5. Uncomment the first two lines in the MSButton constructor (around lines 68 and 69), You should now see a grid of buttons. If you click on the button it should turn white.
-6. Go back to lines 2 and 3 and reduce the number of rows and columns to 5. This will make testing the program easier. We'll set the rows and columns back to a larger number when we finish the game. Make sure the program still runs correctly with the smaller number of rows and columns. 
-7. Now, got to line 5, and initialize `mines` to be a `new` empty `ArrayList` of type `MSButton`  
-8. Go to line 26 and write the `setMines()` function. It should generate a random `row` and `col`umn number. Use the `contains()` function to check to see if the button at that random row and col is already in `mines`. If it isn't then `add` it
-9. Uncomment the 3rd and 4th lines of the `MSButton` `draw()` function (around lines 98 and 99) so that cells with a mine turn red when clicked. Test out your program to make sure it has the number of mines you expect.
-10. Go to line 59 and finish `public boolean isValid(int row, int col)` which returns `true` if (`row`,`col`) is a valid location on the grid and `false` otherwise. Be sure to use your constants for the number of rows and columns
-11. Go to line 67 and finish `public int countMines(int row, int col)` which counts the bombs in the 8 neighbors--(remember to check to see if the neighboring button is valid *first* before checking to see if it's a mine)
-12. Now go to the `MSButton` class and finish `public void mousePressed()` which should:
+1. Work through the [minesweeper codingbat problem set](https://codingbat.com/home/simona1@sfusd.edu/minesweeper)
+2. Fork this repository. As you work through the following steps, make sure that your program runs correctly before going to the next step.
+3. On line 2, delete the comment and create two integer constants `NUM_ROWS` and `NUM_COLS` and initialize them each with the value 20  
+4. Go to line 16, use the constants to initialize the 2d array `buttons` to have 20 rows and 20 columns
+5. Use nested loops to create a `new MSButton` for each row column pair
+6. Uncomment the first two lines in the MSButton constructor (around lines 68 and 69), You should now see a grid of buttons. If you click on the button it should turn white.
+7. Go back to lines 2 and 3 and reduce the number of rows and columns to 5. This will make testing the program easier. We'll set the rows and columns back to a larger number when we finish the game. Make sure the program still runs correctly with the smaller number of rows and columns. 
+8. Now, got to line 5, and initialize `mines` to be a `new` empty `ArrayList` of type `MSButton`  
+9. Go to line 26 and write the `setMines()` function. It should generate a random `row` and `col`umn number. Use the `contains()` function to check to see if the button at that random row and col is already in `mines`. If it isn't then `add` it
+10. Uncomment the 3rd and 4th lines of the `MSButton` `draw()` function (around lines 98 and 99) so that cells with a mine turn red when clicked. Test out your program to make sure it has the number of mines you expect.
+11. Go to line 59 and finish `public boolean isValid(int row, int col)` which returns `true` if (`row`,`col`) is a valid location on the grid and `false` otherwise. Be sure to use your constants for the number of rows and columns
+12. Go to line 67 and finish `public int countMines(int row, int col)` which counts the bombs in the 8 neighbors--(remember to check to see if the neighboring button is valid *first* before checking to see if it's a mine)
+13. Now go to the `MSButton` class and finish `public void mousePressed()` which should:
 	* set `clicked` to true
 	* if `mouseButton` is `RIGHT`, set `flagged` to its opposite value (If it's `true` set it to `false` or if it is `false` set it to `true`) If `flagged` was set to `false` also set `clicked` to `false`
 	* else if `mines` contains `this` button, display the losing message
 	* else if `countMines` returns a number of neighboring mines greater than zero, set the label to that number. 
 	* else recursively call `mousePressed` with the valid, unclicked, neighboring buttons in all 8 directions 
-13. Next, finish `public boolean isWon()` which determines if the player has won the game
-14. Then finish `public void displayWinMessage()`. One way to display the message is to use `setLabel` to change the labels of the buttons
-15. Finish `public void displayLosingMessage()` to display the positions of all the bombs as well as a losing message
-16. Finally, adjust the number of rows, columns and mines in your game to your desired difficulty level.
+14. Next, finish `public boolean isWon()` which determines if the player has won the game
+15. Then finish `public void displayWinMessage()`. One way to display the message is to use `setLabel` to change the labels of the buttons
+16. Finish `public void displayLosingMessage()` to display the positions of all the bombs as well as a losing message
+17. Finally, adjust the number of rows, columns and mines in your game to your desired difficulty level.
 
 
 
